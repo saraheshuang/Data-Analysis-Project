@@ -62,5 +62,16 @@ lapply(eb1data$State, function(x) if (x %in% states) {x} else {NA})
 eb1data$Year<-as.numeric(format(eb1data$X485RD_Date,"%Y"))
 eb1data$Month<-as.numeric(format(eb1data$X485RD_Date,"%M"))
 
+#ANOVA and t test
+#Application_Period(from I485 received to approved) Vs Year
+summary(aov(eb1data$Days_RDto485AD~eb1data$Year))
+#Application_Period Vs Month
+summary(aov(eb1data$Days_RDto485AD~eb1data$Month))
+#Application_Period Vs Type
+summary(aov(eb1data$Days_RDto485AD~eb1data$Type))
+#Application_Period Vs Center
+t.test(eb1data$Days_RDto485AD~eb1data$center)
+
+
 #export data to csv
 write.csv(eb1data, "eb1data.csv")
