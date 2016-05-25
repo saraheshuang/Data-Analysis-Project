@@ -5,4 +5,4 @@ This project cleans and explores the Open Street Map (OSM) data at the San-Jose 
 
  I cleaned some of the data in python and transformed them into json. I also shared results of my exploration on the fixed json data in MongoDB.
  
- (Read the full report here) [https://github.com/saraheshuang/Data-Analysis-Project/blob/master/San%20Jose%20Open%20Street%20Project/SanJoseOSM.md]
+ [Read the full report here] (https://github.com/saraheshuang/Data-Analysis-Project/blob/master/San%20Jose%20Open%20Street%20Project/SanJoseOSM.md)
