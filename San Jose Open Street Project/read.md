@@ -7,3 +7,4 @@ This project cleans and explores the Open Street Map (OSM) data at the San-Jose 
  
  [Read the full report here] (https://github.com/saraheshuang/Data-Analysis-Project/blob/master/San%20Jose%20Open%20Street%20Project/SanJoseOSM.md)
  [Find my python codes here] (https://github.com/saraheshuang/Data-Analysis-Project/blob/master/San%20Jose%20Open%20Street%20Project)
+ 
