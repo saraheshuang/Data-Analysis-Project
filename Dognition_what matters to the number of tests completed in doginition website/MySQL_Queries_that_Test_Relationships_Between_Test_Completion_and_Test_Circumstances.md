@@ -1,32 +1,10 @@
 
 Copyright Jana Schaich Borg/Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-# MySQL Exercise 12: Queries that Test Relationships Between Test Completion and Testing Circumstances 
+# MySQL Queries that Test Relationships Between Test Completion and Testing Circumstances 
 
 In this lesson, we are going to practice integrating more of the concepts we learned over the past few weeks to address whether issues in our Dognition sPAP are related to the number of tests dogs complete.  We are going to focus on a subset of the issues listed in the "Features of Testing Circumstances" branch of our sPAP.  You will need to look up new functions several times and the final queries at which we will arrive by the end of this lesson will be quite complex, but we will work up to them step-by-step.  
 
-To begin, load the sql library and database, and make the Dognition database your default database:
-
-
-```python
-%load_ext sql
-%sql mysql://studentuser:studentpw@mysqlserver/dognitiondb
-%sql USE dognitiondb
-```
-
-    The sql extension is already loaded. To reload it, use:
-      %reload_ext sql
-    0 rows affected.
-
-
-
-
-
-    []
-
-
-
-<img src="https://duke.box.com/shared/static/p2eucjdttai08eeo7davbpfgqi3zrew0.jpg" width=600 alt="SELECT FROM WHERE" />
 
 ## 1. During which weekdays do Dognition users complete the most tests?
 
