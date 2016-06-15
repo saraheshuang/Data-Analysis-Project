@@ -5,7 +5,7 @@
 
 ##Project Summary
 
-This project designs an A/B test and analyze the result related to Udacity's UI change related to the page of starting free trial. It defines the test metric (invariants and metric), measures the variability, determines the size and duration of A/B test and analyze the results. It recommends launching the change as it will increase the customers retention and net conversion rate and help Udacity to utilize its coarching resources at the most needed students.
+This project designs an A/B test and analyze the result related to Udacity's UI change related to the page of starting free trial. It defines the test metric (invariants and metric), measures the variability, determines the size and duration of A/B test and analyze the results. It recommends not launch the change as it will reduce gross retention rate and have unclear impact on net conversion rate.
 
 ## Project Background
 
@@ -18,7 +18,7 @@ The hypothesis was that this might set clearer expectations for students upfront
 - Hypothesis 1: the number of enrolled peope will be significantly reduced;
 - Hypothesis 2: the number of people making the payment will not decrease. 
 
-If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.
+If the hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.
 
 The unit of diversion is a cookie, although if the student enrolls in the free trial, they are tracked by user-id from that point forward. The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page.
 
